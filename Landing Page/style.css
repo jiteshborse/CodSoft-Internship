@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'):root {
   --text-dark: #020617;
-  --text-light: #64748b;
+  --text-light: #0D6FED;
   --extra-light: #f1f5f9;
   --white: #ffffff;
   --max-width: 1200px;
@@ -21,7 +21,7 @@
 .section_subheader {
   font-size: 1.2rem;
   font-weight: 500;
-  color: #64748b;
+  color: #0D6FED;
   margin-bottom: 1rem;
 }
 
@@ -43,7 +43,7 @@
   border: none;
   border-radius: 1rem;
   color: #ffffff;
-  background-color: #020617;
+  background-color: #0D6FED;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -100,7 +100,7 @@ nav {
 }
 
 .link:hover {
-  color: #64748b;
+  color: #0D6FED;
 }
 
 .header_container {
@@ -144,7 +144,7 @@ nav {
   margin-bottom: 1rem;
   font-size: 0.9rem;
   line-height: 1.5rem;
-  color: #64748b;
+  color: #0D6FED;
 }
 
 .header_image img {
@@ -189,7 +189,7 @@ nav {
   align-items: center;
   gap: 2rem;
   margin-bottom: 1rem;
-  color: #64748b;
+  color: #0D6FED;
 }
 
 .story_content .description {
@@ -230,7 +230,7 @@ nav {
 .price_card .details span {
   font-size: 0.9rem;
   font-weight: 600;
-  color: #64748b;
+  color: #0D6FED;
 }
 
 .price_card h4 {
@@ -253,10 +253,80 @@ nav {
 }
 
 .price_card_footer .location:hover {
-  color: #64748b;
+  color: #0D6FED;
 }
 
 .price_card_footer .rating {
   font-weight: 500;
   color: goldenrod;
 }
+
+.client {
+  background: url("assets/33-bg.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.client_grid {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.client_card img {
+  max-width: 70px;
+  border-radius: 100%;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1.5rem;
+}
+
+.client_card h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #020617;
+}
+
+.client_card p {
+  color: #0D6FED;
+}
+
+.client_card span {
+  font-size: 3rem;
+  color: #0D6FED;
+}
+
+.contact_container {
+  text-align: center;
+}
+
+.contact_container p {
+  color: #0D6FED;
+}
+
+.contact_container .section_header {
+  margin: auto;
+}
+
+.contact_container form {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 2rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.contact_container input {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  color: #020617;
+  outline: none;
+  border: 2px solid #020617;
+}
+
+.contact_container .btn {
+  max-width: fit-content;
+  margin: auto;
+} 
